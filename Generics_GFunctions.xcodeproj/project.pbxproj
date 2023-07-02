@@ -11,9 +11,10 @@
 		E99F53E32A51CDC0000C0EFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F53E22A51CDC0000C0EFA /* ContentView.swift */; };
 		E99F53E52A51CDC8000C0EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99F53E42A51CDC8000C0EFA /* Assets.xcassets */; };
 		E99F53E82A51CDC8000C0EFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99F53E72A51CDC8000C0EFA /* Preview Assets.xcassets */; };
-		E99F53F22A51CDC9000C0EFA /* Generics_GFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F53F12A51CDC9000C0EFA /* Generics_GFunctionsTests.swift */; };
 		E99F53FC2A51CDC9000C0EFA /* Generics_GFunctionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F53FB2A51CDC9000C0EFA /* Generics_GFunctionsUITests.swift */; };
 		E99F53FE2A51CDC9000C0EFA /* Generics_GFunctionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F53FD2A51CDC9000C0EFA /* Generics_GFunctionsUITestsLaunchTests.swift */; };
+		E99F540B2A51CE6D000C0EFA /* ClosureGenericsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F540A2A51CE6D000C0EFA /* ClosureGenericsPractice.swift */; };
+		E99F540D2A51CE88000C0EFA /* GenericTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99F540C2A51CE88000C0EFA /* GenericTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,11 @@
 		E99F53E42A51CDC8000C0EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99F53E72A51CDC8000C0EFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E99F53ED2A51CDC9000C0EFA /* Generics_GFunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Generics_GFunctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E99F53F12A51CDC9000C0EFA /* Generics_GFunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics_GFunctionsTests.swift; sourceTree = "<group>"; };
 		E99F53F72A51CDC9000C0EFA /* Generics_GFunctionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Generics_GFunctionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99F53FB2A51CDC9000C0EFA /* Generics_GFunctionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics_GFunctionsUITests.swift; sourceTree = "<group>"; };
 		E99F53FD2A51CDC9000C0EFA /* Generics_GFunctionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics_GFunctionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E99F540A2A51CE6D000C0EFA /* ClosureGenericsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureGenericsPractice.swift; sourceTree = "<group>"; };
+		E99F540C2A51CE88000C0EFA /* GenericTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E99F53E02A51CDC0000C0EFA /* Generics_GFunctionsApp.swift */,
+				E99F540A2A51CE6D000C0EFA /* ClosureGenericsPractice.swift */,
 				E99F53E22A51CDC0000C0EFA /* ContentView.swift */,
 				E99F53E42A51CDC8000C0EFA /* Assets.xcassets */,
 				E99F53E62A51CDC8000C0EFA /* Preview Content */,
@@ -113,7 +116,7 @@
 		E99F53F02A51CDC9000C0EFA /* Generics_GFunctionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				E99F53F12A51CDC9000C0EFA /* Generics_GFunctionsTests.swift */,
+				E99F540C2A51CE88000C0EFA /* GenericTests.swift */,
 			);
 			path = Generics_GFunctionsTests;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				E99F53E32A51CDC0000C0EFA /* ContentView.swift in Sources */,
 				E99F53E12A51CDC0000C0EFA /* Generics_GFunctionsApp.swift in Sources */,
+				E99F540B2A51CE6D000C0EFA /* ClosureGenericsPractice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99F53F22A51CDC9000C0EFA /* Generics_GFunctionsTests.swift in Sources */,
+				E99F540D2A51CE88000C0EFA /* GenericTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
